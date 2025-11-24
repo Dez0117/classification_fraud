@@ -101,7 +101,7 @@
 - **Алгоритм:** TPE Sampler + Hyperband Pruner
 - **Валидация:** 3-fold Stratified CV
 - **Масштаб:** 300 trials, 4 часа времени
-- **Метрика:** AUPRC
+- **Метрика:** AUPRC = 0.8784 (без тюнинга AUPRC = 0.8803)
 
 ### Диапазоны поиска:
 - `max_depth`: 2-20
@@ -122,6 +122,7 @@
     'gamma': 2,
     'max_delta_step': 1
 }
+
 
 
 
